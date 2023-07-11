@@ -24,6 +24,7 @@
     font-size: 81px;
     font-weight: 800;
     width: 708px
+    
 
 }
 .header-p{
@@ -122,9 +123,32 @@
 }
 
 /* <!-- perfect gift --> */
+   .perfect-gift{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:220px;
+    background-color:white;
+    margin: 50px;
 
-  
+   }
+   .bonus{
+    width: 350px;
+    height: 350px;
 
+   }
+   .perfect-title{
+    color: #272728;
+    font-size: 50px;
+    font-weight: 800;
+    width: 560px
+    
+   }
+    .form{
+    background-color: azure;
+    padding: 40px;
+    }
+    
 /* hot deal section */
 .hot-deal-container{
     display: flex;
