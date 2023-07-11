@@ -1,8 +1,10 @@
+
+/* common style */
 *{
     margin: 0px;
     padding: 0px;
 }
-/* common style */
+
 *{
     font-family: 'Lato', sans-serif;
 }
@@ -11,24 +13,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:  rgba(229, 84, 115, 0.10);
-    width: 1920px;
-    height: 850px;
-    background-color:  rgba(229, 84, 115, 0.10);
+    background-color:  rgba(230, 88, 114, 0.11);
     gap: 100px;
+    width: 100%;
+    margin: auto;
 
 }
 .header-title{
     color: #272728;
-    font-family: Lato;
     font-size: 81px;
     font-weight: 800;
     width: 708px
 
 }
 .header-p{
-    color: rgba(55, 53, 53, 0.6); 
-    font-style: normal;
+    color: rgba(56, 54, 54, 0.7); 
     font-weight: 400;
     font-size: 19px;
     width: 634px;
@@ -53,17 +52,152 @@
 }
 /* featured section */
 .featured-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
     color: #272727;
-text-align: center;
-font-size: 40px;
-font-weight: 800;
+    padding-top: 115px;
 }
 .featured-p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-size: 18px;
-font-weight: 400;
+    padding: 50px;
 }
 .featured-img{
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+} 
+
+.featured-imga{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.featured-imgb{
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
+.featured-imgc{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.img-featured1{
+    padding-top: 110px;
+}
+.img-featured2{
+    padding-top: 66px;
+}
+
+
+.img-featured3{
+    padding-top: 66px;
+}
+.flowername{
+    display: flex;
+    justify-content: center;
+    gap: 390px;
+    padding-top: 30px;
+    padding-bottom: 86px;
+}
+
+/* <!-- perfect gift --> */
+
+  
+
+/* hot deal section */
+.hot-deal-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 100px;
+    width: 100%;
+    margin: auto;
+    background-color:  rgba(229, 84, 115, 0.10);
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+/* instagram section */
+.instaphoto-container{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 121px;
+}
+/* latest deal section */
+ .email{
+     height: 64px;
+     border-radius: 8px;
+     background: #FFF;
+     color: rgba(39, 39, 39, 0.60);
+     font-size: 16px;
+     font-weight: 400;
+     padding-left: 15px;
+     width: 700px;
+     border:none ;
+ }
+.latest-container{
+    background-image: url("Rectangle.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    align-items: center;
+    margin-top: -20px;
+    margin-bottom: 100px;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 130px;
+    border-radius: 8px;
+}
+
+      /* footer section */
+footer{
+    background-color: #111010 ;
+   
+    text-align: center;
+}
+.footer-title{
+    color: #E55473;
+font-size: 48px;
+font-weight: 800;
+padding-top: 130px;
+}
+.footer-p{
+    color: rgba(255, 255, 255, 0.90);
+font-size: 18px;
+font-weight: 400;
+padding-bottom: 26px;
+padding-top: 20px;
+}
+.last-line{
+    color: rgba(255, 255, 255, 0.40);
+font-size: 16px;
+font-weight: 400;
+padding-bottom: 129px;
+}
+ .shop{
+    color: white;
+ }
